@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+
+	<!-- MathMLServlet -->
+	<servlet>
+		<servlet-name>MathMLGAEServlet</servlet-name>
+		<servlet-class>mathml.servlet.MathMLServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MathMLGAEServlet</servlet-name>
+		<url-pattern>/mathmlproject_gae</url-pattern>
+	</servlet-mapping>
+
+	<!-- Validator Servlet -->
+	<servlet>
+		<servlet-name>MathMLValidatorServlet</servlet-name>
+		<servlet-class>mathml.servlet.MathMLValidatorServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MathMLValidatorServlet</servlet-name>
+		<url-pattern>/mathmlproject_gae/validator</url-pattern>
+	</servlet-mapping>
+
+	<!-- Transformer Servlet -->
+	<servlet>
+		<servlet-name>MathMLTransformerServlet</servlet-name>
+		<servlet-class>mathml.servlet.MathMLTransformerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MathMLTransformerServlet</servlet-name>
+		<url-pattern>/mathmlproject_gae/transform</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Welcome page -->
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+
+</web-app>

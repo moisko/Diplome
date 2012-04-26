@@ -1,0 +1,281 @@
+
+  					<div id="content">
+  						<p id="top">Open source, commercial support.</p>
+  						<div id="logo">
+  							<h1>
+  								<a href="index.html">Milton</a>
+  							</h1>
+  						</div>
+  						<ul id="menu">
+  							<li>
+  								<a href="/index.html">Home</a>
+  							</li>
+  							<li>
+  								<a href="/guide/index.html">User Guide</a>
+  							</li>
+  							<li>
+  								<a href="/reference/index.html">Reference</a>
+  							</li>
+  							<li>
+  								<a href="/downloads/index.html">Downloads</a>
+  							</li>
+  							<li>
+  								<a href="/license.html">License</a>
+  							</li>  							
+  							<li>
+  								<a href="/contact.html">Contact</a>
+  							</li>
+  						</ul>
+  						<div class="line">
+  						  						
+  						<!-- MARKER:body:start --><div id="pitch">      		      		
+      		<h1>
+      			Milton is an open-source server-side webdav API for java.  
+      		</h1>
+      		
+      		<h2>You use Milton to expose the data in your web application via webdav. This data could be from a relational database, the file system, or any other data source. Milton makes no assumptions about the nature of your data.</h2>      		      
+      	</div>
+      	
+      	<div class="third">
+      		<h3>Quick start</h3>      		      
+      		<p>      			
+      			Find out how to use milton in just a couple of minutes. Milton can often be integrated into an existing web app in only a couple of hours.  
+      			<a href="/quick_start.html">Get started!</a>      			      			
+      		</p>
+      	</div>
+      	
+      	<div class="third">      		      		
+      		<h3>Tutorials</h3>      		      		
+      		<p>
+      			We've got some tutorials to help you get started ASAP.
+      			<a href="/guide/tutorials/index.html">See the tutorials here</a>
+      		</p>      		      	
+      	</div>
+      	
+      	<div class="third last">
+      		<h3>Commercial support</h3>
+      		
+      		<p>
+      			While the community provides great support through <a href="http://lists.justthe.net/mailman/listinfo/">the email list</a>, greater responsiveness and certainty is available with
+      			a commercial support agreement. See the support plans here -
+      			<a href="http://www.ettrema.com/services.html">Commercial support plans</a>
+      		</p>
+      		
+      	</div>      	
+      	
+      	<div class="line">
+      	
+        <div class="left">
+          <p>
+            <strong>Whats webdav?</strong>
+          </p>
+          <p>Web-based Distributed Authoring and Versioning, or WebDAV, is a set of extensions to HTTP that allows users to collaboratively edit and manage files on remote web servers.</p>
+          <p>Its referred to as Web Folders on Windows and is natively supported by all current operating systems. It allows end users to browse directory strucutres on web servers using windows explorer, nautilus, etc.</p>
+        	<p>
+        		<strong>How compatible is it?</strong>
+        	</p>
+        	<p>
+        		The big question with any WEBDAV product is how compatible is it? Find out here -
+        		<a href="/compat/index.html">Compatibility</a>
+        	</p>
+        	
+        	<p>
+            <strong>How do i use it?</strong>
+          </p>
+          <ol>
+            <li>
+              <a href="/downloads/index.html">Download</a>
+              the jars
+            </li>
+            <li>Implement the File and Folder interfaces (lots of other options here, see the reference)</li>
+            <li>Implement a ResourceFactory to find files and folders from a URL</li>
+            <li>Add MiltonServlet to your web app and give it the name of your resource factory</li>
+          </ol>
+          <p>
+            See the
+            <a href="/quick_start.html">Quick Start</a>
+            page for more details
+          </p>
+          <p>
+            <strong>What is its status?</strong>
+          </p>
+          <p>When released in October 2008 Milton had been stable and in small scale production for over a year.</p>
+          <p>As of December 2009 Milton has been widely adopted. It is used in at least several CMS products. Google analytics reports that there have been 5000 unique visitors to the milton website and a similar number of downloads.</p>
+          <p>.</p>
+          <p>
+            <strong>What is it compatible with?</strong>
+          </p>
+          <p>Its been tested and works well with Windows XP, Linux and MacOS. Note that webdav support in Windows Vista has issues and users might need to download a patch. The two main office applications, Open Office and MS Office, also have build in webdav support and both have been tested and work well with Milton.</p>
+          <p>
+            <strong>Who made it?</strong>
+          </p>
+          <p>
+            <a href="http://www.bradmcevoy.com">I</a>
+            did with help from Koen Serry. See the
+            <a href="/contact.html">contact</a>
+            page if you'd like to contribute or get in touch
+          </p>
+          <p>
+            <strong>Planned Extensions</strong>
+          </p>
+          <p>
+            <a href="http://www.rfc-editor.org/rfc/rfc5689.txt">Extended MKCOL</a>
+          </p>
+          <p>
+            <a href="http://tools.ietf.org/html/rfc4791">CALDAV</a>
+          </p>
+          <p>
+            <a href="http://tools.ietf.org/html/rfc3253">Versioning</a>
+          </p>
+          <p>
+            <a href="http://greenbytes.de/tech/webdav/draft-ietf-webdav-bind-latest.html">BIND (resource links)</a>
+          </p>
+        </div>
+      	
+        <div class="right">
+          <p>
+            <strong>News</strong>
+          </p>
+          <ul>
+            <li>31/3/2010 - Released 1.5.2 - lots of little fixes and improvements</li>
+            <li>
+              8/2/2010 - great link from Peter Monks about the
+              <a href="http://lists.w3.org/Archives/Public/w3c-dist-auth/1998OctDec/0308.html">webdav designer's mistakes</a>
+            </li>
+            <li>29/1/2010 - released 1.5.1. Minor fix to milton-ftp dependency</li>
+            <li>
+              21/1/2010 - released 1.5.0. Changes include:
+              <ul>
+                <li>improved pluggability through dependency injection</li>
+                <li>
+                  <a href="/reference/milton-api/apidocs/com/bradmcevoy/http/DigestResource.html">digest authentication,</a>
+                </li>
+                <li>unified PROPFIND and PROPATCH,</li>
+                <li>
+                  which can now be implemented with a
+                  <a href="http://milton.ettrema.com/reference/milton-api/xref/com/bradmcevoy/property/BeanPropertyResource.html">single annotation</a>
+                  , just like property binding in web frameworks like struts!
+                </li>
+                <li>
+                  <a href="http://milton.ettrema.com/reference/milton-api/xref/com/bradmcevoy/http/QuotaResource.html">Quota</a>
+                  support (
+                  <a href="http://www.faqs.org/rfcs/rfc4331.html">rfc4331</a>
+                  )
+                </li>
+              </ul>
+            </li>
+            <li>02/12/09 - released 1.4.3. API improvements, nothing serious. Additional JSON support.</li>
+            <li>16/7/09 - released 1.4.2, greatly improved locking support thanks to Chris Burkey. Also some fixes to character decoding, and improved FTP support.</li>
+            <li>
+              29/6/09 - Milton has
+              <a href="http://management-platform.blogspot.com/2009/06/managed-resources-exposed-via-webdav.html">been integrated</a>
+              with JBoss's
+              <a href="http://jboss.org/jopr">Jopr</a>
+            </li>
+            <li>
+              <a href="/project/newsletters/09_06_09">Newletter: FTP Support!</a>
+            </li>
+            <li>26/5/09 - Version 1.4.1 released. New features include a WEBDAV/AJAX gateway and support for custom properties via CustomPropertyResource</li>
+            <li>Milton's maven repo is fully operational. See http://www.ettrema.com/maven2 - and its built with Milton!</li>
+            <li>25/2/09 - Milton has a maven repo. Only version 1.2 at the moment. See the downloads page for dependency info</li>
+            <li>
+              3/12 - We have a mailing list -
+              <tt>
+                <a href="http://lists.justthe.net/mailman/listinfo/">http://lists.justthe.net/mailman/listinfo/</a>
+                - thanks Steve!
+                <br>
+              </tt>
+            </li>
+            <li>
+              28/11 -
+              <a href="/downloads/index.html">1.2 binary release</a>
+              is now available. This has a couple of important fixes from 1.1
+            </li>
+            <li>
+              27/11 - MiltonServlet now explicitly supports Spring configuration. See the
+              <a href="/reference/index.html">reference</a>
+              page for details
+            </li>
+            <li>
+              26/11 - We now have a file system implementation. Equivalent to tomcat's webdav servlet, but with a configurable root. See
+              <tt>svn://www.ettrema.com/milton/trunk/milton/milton-filesystem</tt>
+            </li>
+            <li>
+              We now have a
+              <a href="http://milton.ettrema.com/compat/index.html">compatibility guide</a>
+              - thanks Russ
+            </li>
+            <li>
+              <a href="http://www.ettrema.com:8080">We now have a jira</a>
+              - Thanks Atlassian!
+            </li>
+            <li>
+              Milton has been integrated into
+              <a href="http://www.dotcms.org">dotCMS 1.6.5</a>
+              , replacing the tomcat webdav servlet
+            </li>
+            <li>The in memory test web now runs out of the box - use mvn jetty:run - thanks Koen</li>
+            <li>We've been mavenised! Thanks Koen</li>
+            <li>
+              Subversion repository is now available -
+              <tt>svn://www.ettrema.com/milton</tt>
+            </li>
+          </ul>
+          <p>
+            <strong>Ohloh stats</strong>
+          </p>
+          <script type="text/javascript" src="http://www.ohloh.net/p/480779/widgets/project_basic_stats.js">//</script><style>
+  div.gadget { margin: 10px;font-size:75%;font-family:helvetica,arial,sans-serif; }
+  div.gadget img { border: none; }
+  div.gadget p { line-height: 1.5em; margin: 0 0 0.5em 0; }
+  div.gadget h3 { margin-top: 0; border: none; }
+  div.gadget div.logo { float: left; }
+  div.gadget div.main { margin-left: 80px; }
+  div.gadget div.updated { clear: both; padding-top: 1em }
+  div.gadget div.updated p { font-size: smaller; color: #aaa; }
+  div.gadget div.more_at_ohloh { float: right; }
+</style>
+<div class="gadget">
+  <div class="main">
+    <h3><a href="http://www.ohloh.net/p/milton" target="_top">Milton</a></h3>
+    <p>
+      Main Language:
+      <a href="http://www.ohloh.net/p/milton/analyses/latest" target="_top">Java</a>
+    </p>
+    <p>
+      Total Lines of Code:
+      <a href="http://www.ohloh.net/p/milton/analyses/latest" target="_top">18,468</a>
+    </p>
+    <p>
+      Active Contributors:
+      <a href="http://www.ohloh.net/p/milton/contributors" target="_top">2</a>
+    </p>
+    <p>
+      Commit Activity Timeline:
+      <br>
+      <img alt="Commits_spark" src="http://www.ohloh.net/p/milton/analyses/latest/commits_spark.png" width="179" height="32">
+    </p>
+    <div class="updated">
+      <div class="more_at_ohloh">
+        <a href="http://www.ohloh.net/p/milton" target="_top"><img alt="More_at" src="http://www.ohloh.net/images/more_at.gif?1275683370"></a>
+      </div>
+      <p>
+        Updated
+        2010-07-06 21:24
+      </p>
+    </div>
+  </div>
+</div>
+
+        </div><!-- MARKER:body:end -->
+  						
+  						  						<div id="footer">
+  							<p>
+  								Copyright 2009 McEvoy Software |
+  								<a href="http://www.solucija.com" title="Free CSS Templates">Design by Solucija</a>
+  								|
+  								<a href="index.html.edit" title="Admin">Administration</a>
+  							</p>
+  						</div>
+  					</div>
+  				</div></div>

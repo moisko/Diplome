@@ -1,0 +1,449 @@
+<html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Unit Test Results: mathml.core.MathMLCoreTestSuite</title>
+<link rel="stylesheet" type="text/css" title="Style" href="../../stylesheet.css">
+<script type="text/javascript" language="JavaScript">
+        var TestCases = new Array();
+        var cur;
+        
+    cur = TestCases['mathml.core.MathMLCoreTestSuite'] = new Array();
+    
+        cur['ant.core.lib'] = 'C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant.jar';
+    
+        cur['ant.file'] = 'C:\\Users\\borko\\workspace\\mathMLProject_dev\\build.xml';
+    
+        cur['ant.file.mathMLProject'] = 'C:\\Users\\borko\\workspace\\mathMLProject_dev\\build.xml';
+    
+        cur['ant.home'] = 'C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145';
+    
+        cur['ant.java.version'] = '1.6';
+    
+        cur['ant.library.dir'] = 'C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib';
+    
+        cur['ant.project.name'] = 'mathMLProject';
+    
+        cur['ant.version'] = 'Apache Ant version 1.7.1 compiled on June 27 2008';
+    
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+    
+        cur['basedir'] = 'C:\\Users\\borko\\workspace\\mathMLProject_dev';
+    
+        cur['classes.dir'] = 'C:\\Users\\borko\\workspace\\mathMLProject_dev\\antBuild\\build\\classes';
+    
+        cur['eclipse.pdebuild.home'] = '/C:/GlassFish-Tools-Bundle-For-Eclipse-1.2/dropins/eclipse-tools-3.5.0/eclipse/plugins/org.eclipse.pde.build_3.5.1.R35x_20090820/./';
+    
+        cur['eclipse.pdebuild.scripts'] = '/C:/GlassFish-Tools-Bundle-For-Eclipse-1.2/dropins/eclipse-tools-3.5.0/eclipse/plugins/org.eclipse.pde.build_3.5.1.R35x_20090820/scripts/';
+    
+        cur['eclipse.pdebuild.templates'] = '/C:/GlassFish-Tools-Bundle-For-Eclipse-1.2/dropins/eclipse-tools-3.5.0/eclipse/plugins/org.eclipse.pde.build_3.5.1.R35x_20090820/templates/';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '\\';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+    
+        cur['java.class.path'] = 'C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-antlr.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-apache-bcel.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-apache-bsf.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-apache-log4j.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-apache-oro.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-apache-regexp.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-apache-resolver.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-commons-logging.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-commons-net.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-jai.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-javamail.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-jdepend.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-jmf.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-jsch.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-junit.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-launcher.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-netrexx.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-nodeps.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-starteam.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-stylebook.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-swing.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-trax.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.apache.ant_1.7.1.v20090120-1145\\lib\\ant-weblogic.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\configuration\\org.eclipse.osgi\\bundles\\175\\1\\.cp\\lib\\remoteAnt.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\jre\\lib\\tools.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\plugins\\org.eclipse.swt.win32.win32.x86_3.5.1.v3555a.jar';
+    
+        cur['java.class.version'] = '50.0';
+    
+        cur['java.endorsed.dirs'] = 'C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\jre\\jre\\lib\\endorsed';
+    
+        cur['java.ext.dirs'] = 'C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\jre\\jre\\lib\\ext;C:\\Windows\\Sun\\Java\\lib\\ext';
+    
+        cur['java.home'] = 'C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\jre\\jre';
+    
+        cur['java.io.tmpdir'] = 'C:\\Users\\borko\\AppData\\Local\\Temp\\';
+    
+        cur['java.library.path'] = 'C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2;.;C:\\Windows\\Sun\\Java\\bin;C:\\Windows\\system32;C:\\Windows;C:/GlassFish-Tools-Bundle-For-Eclipse-1.2/jre/bin/../jre/bin/client;C:/GlassFish-Tools-Bundle-For-Eclipse-1.2/jre/bin/../jre/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files\\Intel\\DMIX;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Java\\jdk1.6.0_19\\bin;C:\\apache-ant-1.8.0\\bin;C:\\Program Files\\Python;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\configuration\\org.eclipse.osgi\\bundles\\114\\1\\.cp';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.6.0_16-b01';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.specification.version'] = '1.6';
+    
+        cur['java.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vendor.url'] = 'http://java.sun.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://java.sun.com/cgi-bin/bugreport.cgi';
+    
+        cur['java.version'] = '1.6.0_16';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) Client VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.specification.version'] = '1.0';
+    
+        cur['java.vm.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.version'] = '14.2-b01';
+    
+        cur['javadoc.dir'] = 'C:\\Users\\borko\\workspace\\mathMLProject_dev\\antBuild\\doc';
+    
+        cur['junit.location'] = 'C:\\Users\\borko\\workspace\\mathMLProject_dev\\lib\\junit-4.5.jar';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['mathml.jar.dir'] = 'C:\\Users\\borko\\workspace\\mathMLProject_dev\\antBuild\\dist';
+    
+        cur['mathml.jar.name'] = 'mathml.jar';
+    
+        cur['mathml.repository'] = 'C:\\Users\\borko\\workspace\\mathMLProject_dev\\mathMLRepository';
+    
+        cur['os.arch'] = 'x86';
+    
+        cur['os.name'] = 'Windows 7';
+    
+        cur['os.version'] = '6.1';
+    
+        cur['path.separator'] = ';';
+    
+        cur['sun.arch.data.model'] = '32';
+    
+        cur['sun.boot.class.path'] = 'C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\jre\\jre\\lib\\resources.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\jre\\jre\\lib\\rt.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\jre\\jre\\lib\\sunrsasign.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\jre\\jre\\lib\\jsse.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\jre\\jre\\lib\\jce.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\jre\\jre\\lib\\charsets.jar;C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\jre\\jre\\classes';
+    
+        cur['sun.boot.library.path'] = 'C:\\GlassFish-Tools-Bundle-For-Eclipse-1.2\\jre\\jre\\bin';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = 'pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86';
+    
+        cur['sun.desktop'] = 'windows';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'Cp1251';
+    
+        cur['sun.management.compiler'] = 'HotSpot Client Compiler';
+    
+        cur['sun.os.patch.level'] = '';
+    
+        cur['test.classes.dir'] = 'C:\\Users\\borko\\workspace\\mathMLProject_dev\\antBuild\\build\\tests';
+    
+        cur['test.data.dir'] = 'C:\\Users\\borko\\workspace\\mathMLProject_dev\\antBuild\\build\\data';
+    
+        cur['test.reports.dir'] = 'C:\\Users\\borko\\workspace\\mathMLProject_dev\\antBuild\\build\\reports';
+    
+        cur['test.suite'] = 'mathml.core.MathMLCoreTestSuite';
+    
+        cur['user.country'] = 'BG';
+    
+        cur['user.dir'] = 'C:\\Users\\borko\\workspace\\mathMLProject_dev';
+    
+        cur['user.home'] = 'C:\\Users\\borko';
+    
+        cur['user.language'] = 'bg';
+    
+        cur['user.name'] = 'borko';
+    
+        cur['user.timezone'] = '';
+    
+        cur['user.variant'] = '';
+    </script><script type="text/javascript" language="JavaScript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document;
+          doc.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style type=\"text/css\">");
+          doc.write("body {font:normal 68% verdana,arial,helvetica; color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+      
+      </script>
+</head>
+<body>
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org/">JUnit</a> and <a href="http://ant.apache.org/">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h3>Class mathml.core.MathMLCoreTestSuite</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="Pass">
+<td><a title="Display all tests" href="0_MathMLCoreTestSuite.html">MathMLCoreTestSuite</a></td><td><a title="Display all tests" href="0_MathMLCoreTestSuite.html">77</a></td><td>0</td><td>0</td><td>0.982</td><td>2010-10-10T14:43:29</td><td>borko-alienware</td>
+</tr>
+</table>
+<h2>Tests</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testParseMathFile_2"></a>testParseMathFile_2</td><td>Success</td><td></td><td>0.083</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testParseMathFile_3"></a>testParseMathFile_3</td><td>Success</td><td></td><td>0.007</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testParseMathFile_4"></a>testParseMathFile_4</td><td>Success</td><td></td><td>0.014</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testParseMathFile_5"></a>testParseMathFile_5</td><td>Success</td><td></td><td>0.011</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testParseMathFile_6"></a>testParseMathFile_6</td><td>Success</td><td></td><td>0.012</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testParseMathFile_7"></a>testParseMathFile_7</td><td>Success</td><td></td><td>0.013</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testParseMathFile_9"></a>testParseMathFile_9</td><td>Success</td><td></td><td>0.012</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testParseMathFile_10"></a>testParseMathFile_10</td><td>Success</td><td></td><td>0.012</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testParseMathFile_11"></a>testParseMathFile_11</td><td>Success</td><td></td><td>0.012</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testParseMathFile_13"></a>testParseMathFile_13</td><td>Success</td><td></td><td>0.012</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testParseMathFile_14"></a>testParseMathFile_14</td><td>Success</td><td></td><td>0.005</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testParseMathFile_21"></a>testParseMathFile_21</td><td>Success</td><td></td><td>0.021</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testParseMathFile_22"></a>testParseMathFile_22</td><td>Success</td><td></td><td>0.007</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testCalculateExpression_2"></a>testCalculateExpression_2</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testCalculateExpression_3"></a>testCalculateExpression_3</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testCalculateExpression_4"></a>testCalculateExpression_4</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testCalculateExpression_16"></a>testCalculateExpression_16</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testCalculatePlusExpression_18"></a>testCalculatePlusExpression_18</td><td>Success</td><td></td><td>0.006</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testCalculateExpression"></a>testCalculateExpression</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testValidateMathFile_1"></a>testValidateMathFile_1</td><td>Success</td><td></td><td>0.345</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testValidateMathFile_2"></a>testValidateMathFile_2</td><td>Success</td><td></td><td>0.295</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testReferenceEquality"></a>testReferenceEquality</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testReferenceEquality"></a>testReferenceEquality</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetResult_1"></a>testGetResult_1</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetResult_2"></a>testGetResult_2</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testHashCodeEquality"></a>testHashCodeEquality</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetFunctionType"></a>testGetFunctionType</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testReferenceEquality"></a>testReferenceEquality</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetResult_1"></a>testGetResult_1</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetResult_2"></a>testGetResult_2</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testHashCodeEquality"></a>testHashCodeEquality</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetResuult_3"></a>testGetResuult_3</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetResult_4"></a>testGetResult_4</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testFunctionType"></a>testFunctionType</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testReferenceEquality"></a>testReferenceEquality</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetResult_1"></a>testGetResult_1</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetResult_2"></a>testGetResult_2</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testHashCodeEquality"></a>testHashCodeEquality</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetFunctionType"></a>testGetFunctionType</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testReferenceEquality"></a>testReferenceEquality</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetResult_1"></a>testGetResult_1</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetResult_2"></a>testGetResult_2</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testHashCodeEquality"></a>testHashCodeEquality</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetFunctionType"></a>testGetFunctionType</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetResult_3"></a>testGetResult_3</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testReferenceEquality"></a>testReferenceEquality</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetResult_1"></a>testGetResult_1</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetResult_2"></a>testGetResult_2</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testHashCodeEquality"></a>testHashCodeEquality</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetFunctionType"></a>testGetFunctionType</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testReferenceEquality"></a>testReferenceEquality</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetResult_1"></a>testGetResult_1</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetResult_2"></a>testGetResult_2</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testHashCodeEquality"></a>testHashCodeEquality</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetResult_3"></a>testGetResult_3</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetOperationType"></a>testGetOperationType</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetResult_1"></a>testGetResult_1</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetResult_2"></a>testGetResult_2</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testHashCodeEquality"></a>testHashCodeEquality</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetResult_3"></a>testGetResult_3</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetOperationType"></a>testGetOperationType</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testReferenceEquality_1"></a>testReferenceEquality_1</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testMinusCalculation"></a>testMinusCalculation</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testReferenceEquality_2"></a>testReferenceEquality_2</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetResult_1"></a>testGetResult_1</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetResult_2"></a>testGetResult_2</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testHashCodeEquality"></a>testHashCodeEquality</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testReferenceEquality_1"></a>testReferenceEquality_1</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testReferenceEquality_2"></a>testReferenceEquality_2</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testReferenceEquality_1"></a>testReferenceEquality_1</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testReferenceEquality_2"></a>testReferenceEquality_2</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetArgsDistanceFromPlusOperation_1"></a>testGetArgsDistanceFromPlusOperation_1</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetArgsDistanceFromPlusOperation_2"></a>testGetArgsDistanceFromPlusOperation_2</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetArgsDistanceFromPlusOperation_3"></a>testGetArgsDistanceFromPlusOperation_3</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetArgsDistanceFromPlusOperation_4"></a>testGetArgsDistanceFromPlusOperation_4</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetArgsDistanceFromOperation_1"></a>testGetArgsDistanceFromOperation_1</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetArgsDistanceFromOperation_2"></a>testGetArgsDistanceFromOperation_2</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('mathml.core.MathMLCoreTestSuite');">
+                    Properties &raquo;
+                </a>
+</div>
+</body>
+</html>

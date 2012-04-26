@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<project name="mathMLProject" default="package">
+	<property name="mathml.jar.name" value="mathml.jar" />
+
+	<property name="classes.dir" location="antBuild/build/classes" />
+
+	<property name="test.classes.dir" location="antBuild/build/tests" />
+
+	<property name="test.data.dir" location="antBuild/build/data" />
+
+	<property name="test.reports.dir" location="antBuild/build/reports" />
+
+	<property name="mathml.jar.dir" location="antBuild/dist" />
+
+	<property name="junit.location" location="lib/junit-4.5.jar" />
+
+	<property name="test.suite" value="mathml.core.MathMLCoreTestSuite" />
+
+	<property name="mathml.repository" location="mathMLRepository" />
+
+	<property name="javadoc.dir" location="antBuild/doc"/>
+
+	<property name="ant.project.name" value="Mathml Project"/>
+
+	<target name="init">
+		<mkdir dir="${classes.dir}"/>
+		<mkdir dir="${test.classes.dir}"/>
+		<mkdir dir="${mathml.jar.dir}"/>
+		<mkdir dir="${test.data.dir}"/>
+		<mkdir dir="${javadoc.dir}"/>
+	</target>
+
+	<target name="compileJava" depends="init" description="Compiles the productive code">
+		<javac srcdir="java" destdir="${classes.dir}" />
+	</target>
+
+	<target name="javadocs" depends="compileJava" description="make the java docs">
+		<javadoc 
+				access="public"
+				sourcepath="java"
+				destdir="${javadoc.dir}"
+				packagenames="mathml.api"
+				use="true"
+				version="true"
+				windowtitle="${ant.project.name}"
+				failonerror="true">
+		</javadoc>
+	</target>
+
+	<path id="compile.classpath">
+		<pathelement location="${classes.dir}" />
+		<pathelement location="${junit.location}" />
+	</path>
+	<target name="compileTests" depends="javadocs" description="Compiles the tests">
+		<javac srcdir="test" destdir="${test.classes.dir}">
+			<classpath refid="compile.classpath" />
+		</javac>
+	</target>
+
+	<path id="test.classpath">
+		<pathelement location="${junit.location}" />
+		<pathelement location="${test.classes.dir}" />
+		<pathelement location="${classes.dir}" />
+	</path>
+	<target name="junitTestExecution" depends="compileTests">
+		<junit printsummary="false" haltonfailure="false" errorproperty="test.failed" failureproperty="test.failed">
+
+			<classpath refid="test.classpath" />
+			<!-- <formatter type="brief" usefile="false"/> -->
+			<formatter type="xml" />
+			<test name="${test.suite}" todir="${test.data.dir}" />
+		</junit>
+
+		<junitreport todir="${test.data.dir}">
+			<fileset dir="${test.data.dir}">
+				<include name="TEST-*.xml" />
+			</fileset>
+			<report format="frames" todir="${test.reports.dir}" />
+		</junitreport>
+
+		<!-- Conditional <fail> - task triggered when the property is set -->
+		<fail if="test.failed">
+			Tests failed. Check ${test.reports.dir}
+		</fail>
+	</target>
+
+	<target name="package" depends="junitTestExecution" description="Creates mathml.jar file">
+		<mkdir dir="${mathml.jar.dir}/mathml"/>
+
+		<copy todir="${mathml.jar.dir}/mathml">
+			<fileset dir="mathml" excludes="**/*.log.*"/>
+		</copy>
+
+		<jar destfile="${mathml.jar.dir}/${mathml.jar.name}" basedir="${classes.dir}" />
+	</target>
+</project>

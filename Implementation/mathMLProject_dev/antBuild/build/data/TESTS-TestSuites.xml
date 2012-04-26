@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="borko-alienware" id="0" name="MathMLCoreTestSuite" package="mathml.core" tests="77" time="0.982" timestamp="2010-10-10T14:43:29">
+      <properties>
+          <property name="java.vendor" value="Sun Microsystems Inc." />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/C:/GlassFish-Tools-Bundle-For-Eclipse-1.2/dropins/eclipse-tools-3.5.0/eclipse/plugins/org.eclipse.pde.build_3.5.1.R35x_20090820/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+
+          <property name="test.data.dir" value="C:\Users\borko\workspace\mathMLProject_dev\antBuild\build\data" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sun.boot.class.path" value="C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\jre\jre\lib\resources.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\jre\jre\lib\rt.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\jre\jre\lib\sunrsasign.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\jre\jre\lib\jsse.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\jre\jre\lib\jce.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\jre\jre\lib\charsets.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\jre\jre\classes" />
+
+          <property name="test.reports.dir" value="C:\Users\borko\workspace\mathMLProject_dev\antBuild\build\reports" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="ant.home" value="C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145" />
+
+          <property name="java.runtime.version" value="1.6.0_16-b01" />
+
+          <property name="user.name" value="borko" />
+
+          <property name="test.classes.dir" value="C:\Users\borko\workspace\mathMLProject_dev\antBuild\build\tests" />
+
+          <property name="junit.location" value="C:\Users\borko\workspace\mathMLProject_dev\lib\junit-4.5.jar" />
+
+          <property name="user.language" value="bg" />
+
+          <property name="sun.boot.library.path" value="C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\jre\jre\bin" />
+
+          <property name="ant.file.mathMLProject" value="C:\Users\borko\workspace\mathMLProject_dev\build.xml" />
+
+          <property name="ant.project.name" value="mathMLProject" />
+
+          <property name="java.version" value="1.6.0_16" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="32" />
+
+          <property name="java.endorsed.dirs" value="C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\jre\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+
+          <property name="sun.jnu.encoding" value="Cp1251" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="classes.dir" value="C:\Users\borko\workspace\mathMLProject_dev\antBuild\build\classes" />
+
+          <property name="java.class.version" value="50.0" />
+
+          <property name="user.country" value="BG" />
+
+          <property name="java.home" value="C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\jre\jre" />
+
+          <property name="mathml.repository" value="C:\Users\borko\workspace\mathMLProject_dev\mathMLRepository" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\borko\workspace\mathMLProject_dev\build.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="14.2-b01" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="mathml.jar.dir" value="C:\Users\borko\workspace\mathMLProject_dev\antBuild\dist" />
+
+          <property name="eclipse.pdebuild.scripts" value="/C:/GlassFish-Tools-Bundle-For-Eclipse-1.2/dropins/eclipse-tools-3.5.0/eclipse/plugins/org.eclipse.pde.build_3.5.1.R35x_20090820/scripts/" />
+
+          <property name="test.suite" value="mathml.core.MathMLCoreTestSuite" />
+
+          <property name="user.home" value="C:\Users\borko" />
+
+          <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="java.library.path" value="C:\GlassFish-Tools-Bundle-For-Eclipse-1.2;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/GlassFish-Tools-Bundle-For-Eclipse-1.2/jre/bin/../jre/bin/client;C:/GlassFish-Tools-Bundle-For-Eclipse-1.2/jre/bin/../jre/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\Intel\DMIX;c:\Program Files\WIDCOMM\Bluetooth Software\;c:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Java\jdk1.6.0_19\bin;C:\apache-ant-1.8.0\bin;C:\Program Files\Python;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\configuration\org.eclipse.osgi\bundles\114\1\.cp" />
+
+          <property name="java.vendor.url" value="http://java.sun.com/" />
+
+          <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="java.class.path" value="C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-antlr.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-apache-bcel.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-apache-bsf.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-apache-log4j.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-apache-oro.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-apache-regexp.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-apache-resolver.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-commons-logging.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-commons-net.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-jai.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-javamail.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-jdepend.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-jmf.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-jsch.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-junit.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-launcher.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-netrexx.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-nodeps.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-starteam.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-stylebook.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-swing.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-trax.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-weblogic.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\configuration\org.eclipse.osgi\bundles\175\1\.cp\lib\remoteAnt.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\jre\lib\tools.jar;C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.eclipse.swt.win32.win32.x86_3.5.1.v3555a.jar" />
+
+          <property name="ant.version" value="Apache Ant version 1.7.1 compiled on June 27 2008" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.0" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="eclipse.pdebuild.home" value="/C:/GlassFish-Tools-Bundle-For-Eclipse-1.2/dropins/eclipse-tools-3.5.0/eclipse/plugins/org.eclipse.pde.build_3.5.1.R35x_20090820/./" />
+
+          <property name="java.io.tmpdir" value="C:\Users\borko\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+
+          <property name="os.arch" value="x86" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\jre\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\borko\workspace\mathMLProject_dev" />
+
+          <property name="line.separator" value=" " />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+
+          <property name="basedir" value="C:\Users\borko\workspace\mathMLProject_dev" />
+
+          <property name="ant.java.version" value="1.6" />
+
+          <property name="ant.core.lib" value="C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant.jar" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="java.specification.version" value="1.6" />
+
+          <property name="javadoc.dir" value="C:\Users\borko\workspace\mathMLProject_dev\antBuild\doc" />
+
+          <property name="mathml.jar.name" value="mathml.jar" />
+
+      </properties>
+
+      <testcase classname="mathml.core.MathMLParserTest" name="testParseMathFile_2" time="0.083" />
+
+      <testcase classname="mathml.core.MathMLParserTest" name="testParseMathFile_3" time="0.0070" />
+
+      <testcase classname="mathml.core.MathMLParserTest" name="testParseMathFile_4" time="0.014" />
+
+      <testcase classname="mathml.core.MathMLParserTest" name="testParseMathFile_5" time="0.011" />
+
+      <testcase classname="mathml.core.MathMLParserTest" name="testParseMathFile_6" time="0.012" />
+
+      <testcase classname="mathml.core.MathMLParserTest" name="testParseMathFile_7" time="0.013" />
+
+      <testcase classname="mathml.core.MathMLParserTest" name="testParseMathFile_9" time="0.012" />
+
+      <testcase classname="mathml.core.MathMLParserTest" name="testParseMathFile_10" time="0.012" />
+
+      <testcase classname="mathml.core.MathMLParserTest" name="testParseMathFile_11" time="0.012" />
+
+      <testcase classname="mathml.core.MathMLParserTest" name="testParseMathFile_13" time="0.012" />
+
+      <testcase classname="mathml.core.MathMLParserTest" name="testParseMathFile_14" time="0.0050" />
+
+      <testcase classname="mathml.core.MathMLParserTest" name="testParseMathFile_21" time="0.021" />
+
+      <testcase classname="mathml.core.MathMLParserTest" name="testParseMathFile_22" time="0.0070" />
+
+      <testcase classname="mathml.core.CalculatorTest" name="testCalculateExpression_2" time="0.0" />
+
+      <testcase classname="mathml.core.CalculatorTest" name="testCalculateExpression_3" time="0.0" />
+
+      <testcase classname="mathml.core.CalculatorTest" name="testCalculateExpression_4" time="0.0" />
+
+      <testcase classname="mathml.core.CalculatorTest" name="testCalculateExpression_16" time="0.0" />
+
+      <testcase classname="mathml.core.CalculatorTest" name="testCalculatePlusExpression_18" time="0.0060" />
+
+      <testcase classname="mathml.core.CalculatorTest" name="testCalculateExpression" time="0.0" />
+
+      <testcase classname="mathml.utils.MathMLUtilitiesTest" name="testValidateMathFile_1" time="0.345" />
+
+      <testcase classname="mathml.utils.MathMLUtilitiesTest" name="testValidateMathFile_2" time="0.295" />
+
+      <testcase classname="mathml.core.ArithmeticInfoTest" name="testReferenceEquality" time="0.0" />
+
+      <testcase classname="mathml.function.CosTest" name="testReferenceEquality" time="0.0" />
+
+      <testcase classname="mathml.function.CosTest" name="testGetResult_1" time="0.0" />
+
+      <testcase classname="mathml.function.CosTest" name="testGetResult_2" time="0.0010" />
+
+      <testcase classname="mathml.function.CosTest" name="testHashCodeEquality" time="0.0" />
+
+      <testcase classname="mathml.function.CosTest" name="testGetFunctionType" time="0.0" />
+
+      <testcase classname="mathml.function.PowerTest" name="testReferenceEquality" time="0.0010" />
+
+      <testcase classname="mathml.function.PowerTest" name="testGetResult_1" time="0.0" />
+
+      <testcase classname="mathml.function.PowerTest" name="testGetResult_2" time="0.0" />
+
+      <testcase classname="mathml.function.PowerTest" name="testHashCodeEquality" time="0.0" />
+
+      <testcase classname="mathml.function.PowerTest" name="testGetResuult_3" time="0.0010" />
+
+      <testcase classname="mathml.function.PowerTest" name="testGetResult_4" time="0.0" />
+
+      <testcase classname="mathml.function.PowerTest" name="testFunctionType" time="0.0" />
+
+      <testcase classname="mathml.function.SinTest" name="testReferenceEquality" time="0.0" />
+
+      <testcase classname="mathml.function.SinTest" name="testGetResult_1" time="0.0" />
+
+      <testcase classname="mathml.function.SinTest" name="testGetResult_2" time="0.0" />
+
+      <testcase classname="mathml.function.SinTest" name="testHashCodeEquality" time="0.0" />
+
+      <testcase classname="mathml.function.SinTest" name="testGetFunctionType" time="0.0" />
+
+      <testcase classname="mathml.function.SqrtTest" name="testReferenceEquality" time="0.0" />
+
+      <testcase classname="mathml.function.SqrtTest" name="testGetResult_1" time="0.0" />
+
+      <testcase classname="mathml.function.SqrtTest" name="testGetResult_2" time="0.0" />
+
+      <testcase classname="mathml.function.SqrtTest" name="testHashCodeEquality" time="0.0" />
+
+      <testcase classname="mathml.function.SqrtTest" name="testGetFunctionType" time="0.0" />
+
+      <testcase classname="mathml.function.SqrtTest" name="testGetResult_3" time="0.0" />
+
+      <testcase classname="mathml.function.TanTest" name="testReferenceEquality" time="0.0" />
+
+      <testcase classname="mathml.function.TanTest" name="testGetResult_1" time="0.0" />
+
+      <testcase classname="mathml.function.TanTest" name="testGetResult_2" time="0.0" />
+
+      <testcase classname="mathml.function.TanTest" name="testHashCodeEquality" time="0.0010" />
+
+      <testcase classname="mathml.function.TanTest" name="testGetFunctionType" time="0.0" />
+
+      <testcase classname="mathml.opeartion.DivisionTest" name="testReferenceEquality" time="0.0" />
+
+      <testcase classname="mathml.opeartion.DivisionTest" name="testGetResult_1" time="0.0" />
+
+      <testcase classname="mathml.opeartion.DivisionTest" name="testGetResult_2" time="0.0" />
+
+      <testcase classname="mathml.opeartion.DivisionTest" name="testHashCodeEquality" time="0.0010" />
+
+      <testcase classname="mathml.opeartion.DivisionTest" name="testGetResult_3" time="0.0" />
+
+      <testcase classname="mathml.opeartion.DivisionTest" name="testGetOperationType" time="0.0" />
+
+      <testcase classname="mathml.opeartion.MinusTest" name="testGetResult_1" time="0.0" />
+
+      <testcase classname="mathml.opeartion.MinusTest" name="testGetResult_2" time="0.0" />
+
+      <testcase classname="mathml.opeartion.MinusTest" name="testHashCodeEquality" time="0.0" />
+
+      <testcase classname="mathml.opeartion.MinusTest" name="testGetResult_3" time="0.0" />
+
+      <testcase classname="mathml.opeartion.MinusTest" name="testGetOperationType" time="0.0" />
+
+      <testcase classname="mathml.opeartion.MinusTest" name="testReferenceEquality_1" time="0.0" />
+
+      <testcase classname="mathml.opeartion.MinusTest" name="testMinusCalculation" time="0.0" />
+
+      <testcase classname="mathml.opeartion.MinusTest" name="testReferenceEquality_2" time="0.0" />
+
+      <testcase classname="mathml.opeartion.MultiplicationTest" name="testGetResult_1" time="0.0030" />
+
+      <testcase classname="mathml.opeartion.MultiplicationTest" name="testGetResult_2" time="0.0" />
+
+      <testcase classname="mathml.opeartion.MultiplicationTest" name="testHashCodeEquality" time="0.0" />
+
+      <testcase classname="mathml.opeartion.MultiplicationTest" name="testReferenceEquality_1" time="0.0" />
+
+      <testcase classname="mathml.opeartion.MultiplicationTest" name="testReferenceEquality_2" time="0.0" />
+
+      <testcase classname="mathml.opeartion.PlusTest" name="testReferenceEquality_1" time="0.0010" />
+
+      <testcase classname="mathml.opeartion.PlusTest" name="testReferenceEquality_2" time="0.0" />
+
+      <testcase classname="mathml.opeartion.PlusTest" name="testGetArgsDistanceFromPlusOperation_1" time="0.0" />
+
+      <testcase classname="mathml.opeartion.PlusTest" name="testGetArgsDistanceFromPlusOperation_2" time="0.0" />
+
+      <testcase classname="mathml.opeartion.PlusTest" name="testGetArgsDistanceFromPlusOperation_3" time="0.0" />
+
+      <testcase classname="mathml.opeartion.PlusTest" name="testGetArgsDistanceFromPlusOperation_4" time="0.0" />
+
+      <testcase classname="mathml.opeartion.TestAbstractOperationType" name="testGetArgsDistanceFromOperation_1" time="0.0010" />
+
+      <testcase classname="mathml.opeartion.TestAbstractOperationType" name="testGetArgsDistanceFromOperation_2" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
